@@ -9,6 +9,7 @@ class Page1:
 
     def fox(self):
         print (self.age - 10)
-
-
         return 3.4
+
+    def stringLength(self, inString):
+        return len(inString)
