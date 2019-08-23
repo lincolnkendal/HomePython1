@@ -1,0 +1,3 @@
+class Frogsa:
+    pass
+    
