@@ -1,13 +1,12 @@
 class Page1:
 
-    # Changed 8/14/2019 10:42 PM
+    # Changed 9/7/2019 
 
     age = 3
 
     def __init__(self, someNumber):
         self.age = someNumber
         print ("passed in value is one less than " + str(someNumber + 1))
-
 
     def fox(self):
         print (self.age - 10)
