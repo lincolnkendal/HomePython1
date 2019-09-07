@@ -1,17 +1,19 @@
+#changed 9/7/2019
+
 import datetime
-#import WebPg
-from WebPg import Page1
+from WebPg import *
+import DB_Classes
 
-#from Gen_DB_classes import dbConnection
-from Gen_DB_classes import *
-
-# 8/16/2019 9:46 PM
+#from DB_Classes.dbConnection import dbConn
+from DB_Classes.SQLite3 import SQLite
 
 curTime = datetime.datetime.now()
 print ("Time is " + str(curTime))
 
-#x = WebPg.Page1(38)
 x = Page1(38)
 
 print (x.fox())
 print (x.stringLength("seven"))
+
+tiger = SQLite(r'Thomas')
+tiger.DBconnect(r'C:\Users\Loseke\Desktop\Code\SQLite_DBs\scrape.db')
