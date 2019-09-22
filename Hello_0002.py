@@ -5,8 +5,7 @@
 #       Atom has no projects, only folders.
 # 2. Commiting Code changes into github.com from within Atom
 #       See video -->> https://www.youtube.com/watch?v=HZV7OKoD1Hc
-#       Push to Github from Atom
-#       Problem button says --> "Create detached commit"
+#       To get API token, log into atom.io and click name at top
 # 3. Master Python import tech well enough to use a separate class for the SQLite connection
 # 4. Debugging Python in Atom
 
