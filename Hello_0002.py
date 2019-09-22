@@ -6,6 +6,7 @@
 # 2. Commiting Code changes into github.com from within Atom
 #       See video -->> https://www.youtube.com/watch?v=HZV7OKoD1Hc
 #       To get API token, log into atom.io and click name at top
+#       Neet to simply clone from github.com to my Desktop.  Don't need token!
 # 3. Master Python import tech well enough to use a separate class for the SQLite connection
 # 4. Debugging Python in Atom
 
